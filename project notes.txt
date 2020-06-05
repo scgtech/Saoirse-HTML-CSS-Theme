@@ -1,0 +1,3 @@
+main colors
+#263246
+#d83a3a

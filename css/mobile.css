@@ -1,0 +1,106 @@
+/* body {
+  display: none;
+} */
+
+/* Stack Vertically Services Section */
+#services .items {
+  display: block;
+  padding: 1rem;
+}
+
+/* Align Icon To Left */
+#what .items .item {
+  display: flex;
+  text-align: left;
+}
+
+/* Position Icons */
+#what .items .item i {
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+/* Navbar Menu and Logo */
+@media {
+  #navbar .logo {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  /* #navbar ul,
+  #navbar ul li {
+    float: none;
+    display: block;
+  } */
+
+  #navbar ul li a {
+    padding: 3px;
+    border-bottom: #444 dotted 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  #about {
+    display: block;
+  }
+
+  #about .about-img {
+    display: none;
+  }
+
+  #about .about-text h4 {
+    margin-bottom: 1rem;
+  }
+
+  #accomplishments .accomplishment {
+    display: block;
+  }
+
+  #work {
+    display: none;
+  }
+
+  #testi {
+    display: none;
+  }
+
+  #team .team-members {
+    display: block;
+    padding: 1rem;
+  }
+  #team .team-members img {
+    width: 100%;
+  }
+
+  #know-more {
+    display: none;
+  }
+
+  #news {
+    display: none;
+  }
+
+  #clients {
+    display: none;
+  }
+
+  #main-footer .footer-container {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  #main-footer .footer-container > *:last-child {
+    grid-column: 1;
+  }
+
+  #main-footer .footer-container > *:first-child,
+  #main-footer .footer-container > *:nth-child(3) {
+    border-bottom: #444 dotted 2px;
+    padding-bottom: 1rem;
+  }
+}
